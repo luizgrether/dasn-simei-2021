@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'pantonbold';
+    src: url('/static/website/fonts/panton-bold.woff2') format('woff2'), url('/static/website/fonts/panton-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'panton_extrablackregular';
+    src: url('/static/website/fonts/panton-extrablack.woff2') format('woff2'), url('/static/website/fonts/panton-extrablack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'panton_extraboldregular';
+    src: url('/static/website/fonts/panton-extrabold.woff2') format('woff2'), url('/static/website/fonts/panton-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'panton_lightregular';
+    src: url('/static/website/fonts/panton-light.woff2') format('woff2'), url('/static/website/fonts/panton-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pantonregular';
+    src: url('/static/website/fonts/Panton-Regular.woff2') format('woff2'), url('/static/website/fonts/Panton-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'panton_semiboldregular';
+    src: url('/static/website/fonts/Panton-SemiBold.woff2') format('woff2'), url('/static/website/fonts/Panton-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding-top: 70px;
+    color: #8899A6;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+}
+
+a {
+    color: #5871F2;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:focus,
+a:hover {
+    outline: 0;
+    color: #254B99;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #5871F2;
+    font-family: 'pantonbold', sans-serif;
+}
+
+h2 {
+    font-family: 'pantonregular', sans-serif;
+    font-size: 24px;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-inverse {
+    background-color: #7D64CE;
+    border-color: #7D64CE;
+}
+
+.update {
+    color: #4088DA;
+    font-size: 14px;
+    font-family: 'panton_lightregular', sans-serif;
+}
+
+.badge {
+    background-color: #D4D9DD;
+    font-weight: 300;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tbl-header {
+    background-color: rgba(212, 217, 221, 0.3);
+}
+
+.tbl-content {
+    height: 350px;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(212, 217, 221, 0.3);
+}
+
+.tbl-content_service {
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(212, 217, 221, 0.3);
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+    border-bottom: solid 1px rgba(212, 217, 221, 0.3);
+}
+
+.nota {
+    font-size: 12px !important;
+    border: 1px solid #D4D9DD;
+    padding: 15px;
+    margin: 20px;
+    line-height: 18px;
+}
+
+.list-person,
+.list-person ul {
+    list-style-type: none;
+}
+
+.list-person li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #47B3C1;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-text {
+    padding-bottom: 20px;
+}
+
+.footer-social {
+    font-size: 22px;
+}
+
+.footer-social a {
+    color: #D4D9DD;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footer-social a:focus,
+a:hover {
+    outline: 0;
+    color: #7D64CE;
+    text-decoration: none;
+}
+
+.text-large {
+    font-size: 8em;
+    letter-spacing: 25px;
+    line-height: 170px;
+}
+
+.not-found img {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 1em;
+    background: #7D64CE;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 100px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.20);
+    margin: 8px;
+    border: none;
+}
+
+.valor {
+    color: #47B3C1;
+    font-size: 22px;
+}
+
+.valor small {
+    font-size: 17px;
+}
+
+.btn-primary:hover {
+    background: #684FB9;
+    box-shadow: none;
+}
+
+.outline,
+.outline ol {
+    counter-reset: out;
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.outline li:before {
+    counter-increment: out;
+    content: counters(out, ".") ". ";
+    font-weight: bold;
+    color: #5871F2;
+}
+
+a.list-group-item,
+button.list-group-item {
+    color: #5871F2;
+}
+
+a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover {
+    color: #254B99;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px;
+    }
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        line-height: 1.4em;
+    }
+    .footer-social {
+        display: none;
+    }
+}
+
+@page {
+    margin: 0.5cm;
+}

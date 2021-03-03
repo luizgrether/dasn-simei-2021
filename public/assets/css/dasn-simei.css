@@ -1,0 +1,613 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+.h-cont {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+background-color: #47B3C1;
+display: flex;
+justify-content: center;
+}
+
+.header-container {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.barra {
+    background-color: #47B3C1;
+    padding: 15px 8px;
+    padding-bottom: 0;
+}
+
+.barra-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-logo {
+    width: 80px;
+}
+
+.header {
+    height: auto;
+    background-image: linear-gradient(#47b3c1, #fff);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: -70px;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 68px;
+    color: #fff;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: -10px;
+    font-family: 'Roboto Slab';
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #005965;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+p {
+    font-family: 'Roboto Slab';
+}
+
+.img-logo {
+    margin-left: -10px;
+    padding-top: 0px;
+    margin-bottom: 16px;
+}
+
+.passo {
+    border-left: solid 4px #fff;
+    padding: 5px 20px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.circulo {
+    width: 14px;
+    position: absolute;
+    top: 0px;
+    left: -9px;
+}
+
+.circulo-4 {
+    width: 14px;
+    position: absolute;
+    bottom: 0px;
+    left: -4px
+}
+
+.subtext {
+    color: #005965;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.passo-6 {
+    border-bottom: solid 4px #fff;
+}
+
+main {
+    background-color: #fff;
+}
+
+.passo-1 {
+    width: 50%;
+    margin-left: auto;
+    box-sizing: border-box;
+    border-left: none;
+    padding-right: 50px;
+}
+
+.passo-2 {
+    text-align: end;
+    padding-left: 50px;
+}
+
+.passo-3 {
+    box-sizing: border-box;
+}
+
+.passo-2 .circulo {
+    right: -10px;
+    left: auto;
+}
+
+.passo-1-desktop {
+    display: flex;
+}
+
+.vazio-1 {
+    width: 50%;
+}
+
+.passo-2-desktop {
+    display: flex;
+}
+
+.passo-2-desktop .passo-2 {
+    border-left: none;
+    border-left: none;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.vazio-2 {
+    width: 50%;
+}
+
+.linha {
+    width: 5.7px;
+    background-color: #e8e8e8;
+}
+
+.descricao {
+    max-width: 500px;
+    margin-left: auto;
+}
+
+.descricao-2 {
+    max-width: 500px;
+    margin-right: auto;
+}
+
+.wrapper-avisos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.avisos-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.aviso-1-desktop, .aviso-2-desktop {
+    width: 50%;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.aviso-1-desktop {
+    background-color: #ff784d;
+    margin-left: 0;
+}
+
+.aviso-2-desktop {
+    background-color: #60d665;
+    margin-right: 0;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.separador {
+    width: 5.6px;
+    background-color: #e8e8e8;
+    height: 50%;
+    position: relative;
+}
+
+/* FAQ */
+
+.container {
+    width: 100%;
+    position: relative;
+    max-width: 1100px;
+    margin: 0px auto;
+    padding-top: 60px;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 80px 20px;
+    border-radius: 10px;
+    margin-top: -10px;
+    padding-top: 100px;
+  }
+  
+  /* Styles for Accordion */
+  .toggle:last-child {
+    border-bottom: 1px solid #dddddd;
+  }
+  .toggle .toggle-title {
+    position: relative;
+    display: block;
+    border-top: 1px solid #dddddd;
+    margin-bottom: 6px;
+  }
+  .toggle .toggle-title h3 {
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    cursor: pointer;
+    font-weight: 200;
+  }
+  .toggle .toggle-inner {
+    padding: 7px 25px 10px 25px;
+    display: none;
+    margin: -7px 0 6px;
+  }
+  .toggle .toggle-inner div {
+    max-width: 100%;
+  }
+  .toggle .toggle-title .title-name {
+    display: block;
+    padding: 25px 25px 14px;
+    padding-left: 0;
+  }
+  .toggle .toggle-title a i {
+    font-size: 22px;
+    margin-right: 5px;
+  }
+  .toggle .toggle-title i {
+    position: absolute;
+    background: url("http://arielbeninca.com/Storage/plus_minus.png") 0px -24px no-repeat;
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease;
+    margin: 20px;
+    right: 0;
+  }
+  .toggle .toggle-title.active i {
+    background: url("http://arielbeninca.com/Storage/plus_minus.png") 0px 0px no-repeat;
+  }
+
+  .linha-faq {
+      width: 60%;
+      height: 4px;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+
+  .container {
+      padding-left: 0;
+      padding-right: 0;
+  }
+
+@media screen and (max-width: 1150px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+  .container h1 {
+      position: relative;
+      top: -45px;
+      color: #005965;
+      font-size: 28px;
+      font-weight: 500;
+  }
+
+  .toggle-title h3 {
+      font-family: 'Oswald';
+  }
+
+  .barra {
+      background-color: transparent;
+      padding: 15px 8px;
+      padding-bottom: 0;
+  }
+
+  .img-logo {
+      width: 80px;
+  }
+
+@media screen and (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+
+    .descricao {
+        margin-left: initial;
+    }
+
+    .passo-1 {
+        width: 100%;
+    }
+
+    .passo-2 {
+        text-align: start;
+    }
+
+    .mobile {
+        display: block;
+    }
+    main {
+        padding: 20px;
+        background-color: #d4ddde3b;
+        padding-top: 0;
+        scroll-margin-top: 40px;
+    }
+    
+    .header {
+        height: auto;
+        background-image: linear-gradient(#47b3c1, #d4ddde3b);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        padding-top: 80px;
+    }
+    
+    h1 {
+        font-family: 'Oswald';
+        text-transform: uppercase;
+        margin-top: 0;
+        font-size: 8.6vw;
+        color: #fff;
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .barra {
+        background-color: transparent;
+    }
+    
+    h3 {
+        margin-top: -10px;
+        font-family: 'Roboto Slab';
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        color: #005965;
+        font-weight: 500;
+        margin-top: -20px;
+    }
+    
+    p {
+        font-family: 'Roboto Slab';
+    }
+    
+    .passo {
+        border-left: solid 4px #fff;
+        padding: 5px 20px;
+        position: relative;
+        padding-bottom: 40px;
+    }
+    
+    .circulo {
+        width: 14px;
+        position: absolute;
+        top: 0px;
+        left: -9px;
+    }
+
+    .passo-2 .circulo {
+        width: 14px;
+        position: absolute;
+        top: 0px;
+        left: -9px;
+    }
+    
+    .subtext {
+        color: #005965;
+        font-size: 18px;
+        font-family: 'Roboto';
+    }
+    
+    .cta {
+        padding: 8px 20px;
+        color: #fff;
+        background-color: #005965;
+        width: 30%;
+        text-align: center;
+        font-family: 'Roboto';
+        border-radius: 6px;
+        position: relative;
+        margin-top: 20px;
+        z-index: 20;
+        text-decoration: none;
+    }
+    
+    .passo-6 {
+        border-bottom: solid 4px #fff;
+    }
+    
+    .avisos {
+        padding: 0px;
+        padding-top: 60px;
+        border-right: none;
+        padding-left: 0;
+        padding-bottom: 80px;
+    }
+    
+    
+    .aviso-container {
+        display: flex;
+    }
+    
+    
+    
+    .aviso-1, .aviso-2 {
+        background-color: #60d665;
+        border-radius: 10px;
+        padding: 20px;
+        color: #fff;
+        font-family: Roboto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-right: 10px;
+        font-size: 17px;
+        flex-direction: column;
+    }
+    
+    .separador {
+        height: 20px;
+        background-color: transparent;
+    }
+    
+ 
+    
+    .aviso-container {
+        position: relative;
+    }
+    
+    .aviso-1 {
+        height: auto;
+    }
+    
+    .aviso-2 {
+        background-color: #ff784d;
+        height: auto;
+    }
+    
+    /* FAQ */
+    .container {
+        width: 100%;
+        position: relative;
+        padding-bottom: 30px;
+        padding-top: 80px;
+        margin-bottom: 40px;
+      }
+      
+      /* Styles for Accordion */
+      .toggle:last-child {
+        border-bottom: 1px solid #dddddd;
+      }
+      .toggle .toggle-title {
+        position: relative;
+        display: block;
+        border-top: 1px solid #dddddd;
+        margin-bottom: 6px;
+      }
+      .toggle .toggle-title h3 {
+        font-size: 20px;
+        margin: 0px;
+        line-height: 1;
+        cursor: pointer;
+        font-weight: 200;
+      }
+      .toggle .toggle-inner {
+        padding: 7px 25px 10px 25px;
+        display: none;
+        margin: -7px 0 6px;
+      }
+      .toggle .toggle-inner div {
+        max-width: 100%;
+      }
+      .toggle .toggle-title .title-name {
+        display: block;
+        padding: 25px 25px 14px;
+        padding-left: 0;
+      }
+      .toggle .toggle-title a i {
+        font-size: 22px;
+        margin-right: 5px;
+      }
+      .toggle .toggle-title i {
+        position: absolute;
+        background: url("http://arielbeninca.com/Storage/plus_minus.png") 0px -24px no-repeat;
+        width: 24px;
+        height: 24px;
+        transition: all 0.3s ease;
+        margin: 20px;
+        right: 0;
+      }
+      .toggle .toggle-title.active i {
+        background: url("http://arielbeninca.com/Storage/plus_minus.png") 0px 0px no-repeat;
+      }
+    
+      .linha-faq {
+          width: 60%;
+          height: 4px;
+          background-color: #fff;
+          position: absolute;
+          top: 0;
+          right: 0;
+      }
+    
+      .container h1 {
+          position: relative;
+          top: -45px;
+          color: #005965;
+          font-size: 28px;
+          font-weight: 500;
+      }
+    
+      .toggle-title h3 {
+          font-family: 'Oswald';
+      }
+
+      .barra {
+          background-color: transparent;
+          padding: 15px 8px;
+          padding-bottom: 0;
+      }
+
+      .img-logo {
+          width: 80px;
+          margin-left: 0;
+      }
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #47b3c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-footer {
+    width: 40px;
+}
+
+footer p {
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: bold;
+}
